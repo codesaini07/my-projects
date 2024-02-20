@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="modal.css" />
+    <title>Project Modal</title>
+  </head>
+  <body>
+    <button class="show-modal">Show Modal 1</button>
+    <button class="show-modal">Show Modal 2</button>
+    <button class="show-modal">Show Modal 3</button>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <nav>
-        <input type="checkbox" id="check" name="" value="">
-        <label for="check" id="btn"><i class="fa fa-bars"></i></label>
-        <span class="logo">Codesaini07</span>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">contact us</a></li>
-        </ul>
-    </nav>
-</body>
-
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I am modal window</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores
+        expedita asperiores cupiditate aspernatur nisi quidem iste, dicta, esse
+        commodi magni possimus delectus quisquam? Magnam quis aliquid
+        voluptatum, placeat reprehenderit iure iste maiores, earum rerum modi
+        dolore maxime ea sit fugit at fuga id laudantium in possimus facilis
+        amet sunt.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
